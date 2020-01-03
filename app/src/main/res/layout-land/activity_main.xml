@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/marcianito"
+    android:background="@drawable/marciano"
     tools:context=".MainActivity">
 
     <TextView
@@ -16,23 +16,23 @@
         android:textSize="46dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintHorizontal_bias="0.528"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.37" />
+        app:layout_constraintVertical_bias="0.093" />
 
     <Button
         android:id="@+id/button"
         style="@style/buttonStyle"
-        android:layout_width="129dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="200dp"
+        android:layout_width="118dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="208dp"
         android:background="@drawable/button_border"
         android:text="@string/btn_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
